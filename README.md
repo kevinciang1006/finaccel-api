@@ -1,23 +1,25 @@
- # Foobar
+Up # Finaccell Express backend
 
-Foobar is a Python library for dealing with word pluralization.
+This is the backend using Express.js
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [npm](https://nodejs.org/en/download/) to install.
+
+Setup the backend
 
 ```bash
-pip install foobar
+npm install
+sequelize db:migrate
+sequelize db:seed:all
 ```
 
 ## Usage
 
-```python
-import foobar
+Start the backend
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+```bash
+npm start
 ```
 
 ## Contributing
