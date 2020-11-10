@@ -16,7 +16,13 @@ module.exports = {
       "Roles",
       [
         {
-          name: "BASIC",
+          name: "STAFF",
+        },
+        {
+          name: "LEAD",
+        },
+        {
+          name: "DIRECTOR",
         },
       ],
       {}
@@ -30,5 +36,6 @@ module.exports = {
      * Example:
      * await queryInterface.bulkDelete('People', null, {});
      */
+    await queryInterface.bulkDelete("Roles", null, {});
   },
 };

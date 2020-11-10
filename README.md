@@ -1,4 +1,4 @@
-Up # Finaccell Express backend
+# Finaccell Express backend
 
 This is the backend using Express.js
 
@@ -7,6 +7,9 @@ This is the backend using Express.js
 Use the package manager [npm](https://nodejs.org/en/download/) to install.
 
 Setup the backend
+
+1. Create new database in localhost/phpmyadmin (ex: finaccel)
+2. Go to config\config.json and fill in the database credentials
 
 ```bash
 npm install
